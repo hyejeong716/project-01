@@ -1,0 +1,37 @@
+@charset "UTF-8";
+:root { 
+	--main-color: #182B3A;
+	--accent1-color: #73aab0;
+	--accent2-color: #d0d67a;
+	--sub-color: #97876d;
+	--bg-color: #bfcfc7;
+
+	--gray1: #434343;
+	--gray2: #7B7B7B;
+	--gray3: #A7A7A7;
+	--gray4: #C7C7C7;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;  /* 추가 */
+}
+html { font-size: 62.5%; } /* 16px이 기본 -> 10px */
+body {
+  font-family: "Quicksand", arial, sans-serif; 
+	color: #111;
+	line-height: 1;
+	overflow-x: hidden;
+	font-weight: 500;
+}
+ol, ul {
+	list-style: none;
+}
+
+img { max-width: 100%; vertical-align: middle; }
+a {
+	text-decoration: none;
+	color: inherit;
+}
